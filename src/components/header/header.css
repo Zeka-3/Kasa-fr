@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-self: baseline;
+    margin: 40px 0;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    width: 85%;
+}
+
+.container img {
+    height: 50px;
+    width: 180px;
+}
+
+@media screen and (max-width: 600px) {
+    .container img {
+        height: 50px;
+        width: 140px;
+    }
+}

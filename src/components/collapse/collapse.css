@@ -1,0 +1,119 @@
+button {
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: 0;
+}
+
+h1 {
+    color: white;
+    -webkit-margin-after: 0px;
+    margin-block-end: 0px;
+    -webkit-margin-before: 0px;
+    margin-block-start: 0px;
+    font-size: 1.8rem;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    h1 {
+        font-size: 2.5rem;
+    }
+}
+
+.dropPanel {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .dropPanel {
+        margin-top: 20px;
+        margin-bottom: 0;
+        width: 90%;
+    }
+}
+
+.dropPanel-Block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FF6060;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 900px;
+    color: #F6F6F6;
+    border-radius: 10px;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1600px) {
+    .dropPanel-Block {
+        max-width: 1500px;
+        padding: 15px 20px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .dropPanel-Block {
+        padding: 25px 20px;
+    }
+}
+
+.Vector {
+    height: 30px;
+    width: 30px;
+    rotate: 180deg;
+    cursor: pointer;
+}
+
+.title {
+    position: absolute;
+}
+
+.text {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    background-color: #F6F6F6;
+    color: #FF6060;
+    font-size: 1.3rem;
+    padding: 0px 20px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    position: relative;
+    top: -28px;
+    max-width: 900px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+@media screen and (min-width: 1600px) {
+    .text {
+        max-width: 1500px;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .text {
+        max-width: 1500px;
+        font-size: 1.8rem;
+    }
+}
+
+/*# sourceMappingURL=DropPanel.css.map */

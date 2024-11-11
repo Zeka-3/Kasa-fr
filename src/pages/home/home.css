@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+.homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homeBanner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 223px;
+    margin: 50px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .homeBanner {
+        width: 90%;
+        height: 120px;
+        margin: 0 auto;
+    }
+}
+
+.homeBanner p {
+    position: absolute;
+    color: white;
+    font-size: 3.5rem;
+    z-index: 6;
+    translate: 0 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .homeBanner p {
+        width: 62%;
+        margin: 0 auto;
+        font-size: 1.5rem;
+        translate: 0 0px;
+        top: 160px;
+        left: 10%;
+    }
+}
+
+.homeBannerImg {
+    border-radius: 20px;
+    filter: brightness(0.7);
+}
+
+@media screen and (max-width: 600px) {
+    .homeBannerImg {
+        width: 100%;
+    }
+}
+
+.cardList {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #f6f6f6;
+    width: 1240px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding: 45px 0;
+    gap: 60px;
+}
+
+@media screen and (max-width: 600px) {
+    .cardList {
+        width: 90%;
+        margin: 0 auto;
+        background-color: transparent;
+        padding: 20px 0;
+        gap: 20px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .cardList {
+        width: 1590px;
+        padding: 50px 25px;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .cardList {
+        width: 1980px;
+        padding: 55px 0;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 340px;
+    width: 340px;
+    border-radius: 20px;
+    background-color: #FF6060;
+    background: linear-gradient(180deg, #FF6060 35%, #000000 120%);
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .card {
+        height: 420px;
+        width: 420px;
+    }
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    filter: opacity(0.2);
+    box-shadow: none;
+    transition: 0.3s;
+}
+
+.card img:hover {
+    cursor: pointer;
+    filter: opacity(1);
+    box-shadow: 5px 5px 5px 2px #FF6060;
+}
+
+.card b {
+    position: absolute;
+    margin: 20px;
+    color: white;
+    font-size: 1rem;
+    width: 20%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 600px) {
+    .card b {
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .card b {
+        width: 12%;
+        font-size: 1.2rem;
+    }
+}

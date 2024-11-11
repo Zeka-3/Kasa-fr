@@ -1,0 +1,170 @@
+.logementBloc {
+    width: 85%;
+    margin: 20px 7.5%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+}
+
+.content p {
+    font-size: 1.2rem;
+    color: #FF6060;
+}
+
+.content b {
+    font-size: 2rem;
+    color: #FF6060;
+    background-color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .content b {
+        font-size: 1.5rem;
+    }
+}
+
+.content .img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #C4C4C4;
+}
+
+.rightBloc {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .rightBloc {
+        flex-direction: row;
+        margin-top: 20px;
+    }
+}
+
+.ratingBloc {
+    margin-bottom: 2px;
+}
+
+@media screen and (max-width: 600px) {
+    .ratingBloc {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.starBloc {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 600px) {
+    .starBloc img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.host {
+    display: flex;
+}
+
+.host img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.host p {
+    width: 80px;
+    color: #FF6060;
+    text-align: -webkit-right;
+    margin-right: 10px;
+}
+
+.tags {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.tags ul {
+    gap: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .tags ul {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+}
+
+.tags li {
+    justify-content: flex-start;
+    color: white;
+    background-color: #FF6060;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px 5px;
+    margin: 5px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    .tags li {
+        width: 150px;
+        margin: 0;
+    }
+}
+
+.descriptionBloc {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .descriptionBloc {
+        flex-direction: column;
+    }
+}
+
+.descriptionBloc .dropPanel {
+    margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+    .descriptionBloc .dropPanel {
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .descriptionBloc .dropPanel h1 {
+        font-size: 1.2rem;
+    }
+}
+
+.descriptionBloc .text {
+    padding-top: -10px;
+}
+
+.text li {
+    list-style: none;
+}
+
+/*# sourceMappingURL=Logement.css.map */
