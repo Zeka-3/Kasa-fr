@@ -28,13 +28,13 @@ nav li {
 
 .link {
     text-decoration: none;
-    color: #FF6060;
+    color: black;
     font-weight: 500;
 }
 
 .activated {
     text-decoration: underline;
-    color: #FF6060;
+    color: black;
 }
 
 a {
